@@ -16,5 +16,5 @@ $(document).ready(function(){
 
   getIt()
   frameIt()
-  $('img').css({"border-style":"solid"; "border-color": "red"; "border-width":"medium"})
+ 
 });
