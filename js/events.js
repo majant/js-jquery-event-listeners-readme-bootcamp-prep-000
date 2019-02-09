@@ -11,14 +11,19 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('#')
+  $('#typing').on('keydown', function(e) {
+    if (e.key === 'G') {
+      alert('You pressed G')
+    }
+  })
 }
 
 
 
 $(document).ready(function(){
 
-  getIt()
-  frameIt()
+  getIt();
+  frameIt();
+  pressIt();
  
 });
